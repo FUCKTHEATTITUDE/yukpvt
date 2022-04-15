@@ -21,6 +21,12 @@ answer.extend(
             input_message_content=InputTextMessageContent("/pause"),
         ),
         InlineQueryResultArticle(
+            title="player",
+            description=f"show the current playout on group call.",
+            thumb_url="https://telegra.ph/file/b028af0e3b32ed4aa568d.png",
+            input_message_content=InputTextMessageContent("/player"),
+        ),
+        InlineQueryResultArticle(
             title="Resume Stream",
             description=f"Resume the ongoing playout on group call.",
             thumb_url="https://telegra.ph/file/02d1b7f967ca11404455a.png",
